@@ -1,0 +1,83 @@
+<style>
+	*{
+		background: rgb(20, 20, 20);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		color: lightgray;
+		text-decoration: none;
+	}
+	button,input{
+		border: solid 1px dimgray;
+		height: 25px;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+
+	#header{
+		height: 50px;
+		max-width: 100%;
+		background: rgb(35, 35, 35);
+	}
+	#logo{
+		width: 80px;
+		margin-left: 75px;
+		margin-top: 5px;
+	}
+	#menuUsuario,#login{
+		position: absolute;
+		left: 90vw;
+		top: 13px;
+	}
+	#navBar{
+		padding: 0;
+		margin: 0;
+		width: 140px;
+		list-style: none;
+		position: absolute;
+		top: 13px;
+		left: 233px;
+		float: left;
+		height: 50px;
+	}
+	#menuUsuario{
+		height: 25px;
+	}
+	#menuUsuario .elementoUsuario{
+		margin-bottom: 3px;
+		display: block;
+		width: 120px;
+	}
+	#menuUsuario .elementoUsuario:hover{
+		color: white;
+	}
+	#inicio,#navBar,.elementoUsuario{
+		background: none;
+	}
+	.navBarItem,#nombreUsuario,#conjuntoElementosUsuario,.navBarItem button{
+		background: rgb(30, 30, 30);
+	}
+	.navBarItem button:hover{
+		color: white;
+	}
+	.navBarItem{
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+	#nombreUsuario{
+		cursor: default;
+		width: 120;
+		margin-bottom: 10px;
+	}
+	#login button{
+		background: rgb(30, 30, 30);
+	}
+	#login button:hover{
+		color: white;
+	}
+
+
+	
+</style>

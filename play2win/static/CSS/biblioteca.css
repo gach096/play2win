@@ -1,0 +1,26 @@
+<style>
+body{
+    background: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+#biblio{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#formu{
+    display: inline-block;
+    margin-left: 30px;
+}
+.btn{
+    color:white;
+    background-color: black;
+}
+.btn:hover{
+    background-color: darkturquoise;
+}
+a:hover{
+color: deepskyblue;
+}
+</style>

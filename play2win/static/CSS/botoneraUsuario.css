@@ -1,0 +1,12 @@
+<style>
+.btn{
+    color:white;
+    background-color: black;
+}
+.btn:hover{
+    background-color: darkturquoise;
+}
+form{
+    display: inline-block;
+}
+</style>

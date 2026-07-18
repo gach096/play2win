@@ -1,0 +1,157 @@
+<style>
+
+	*{
+		background: rgb(20, 20, 20);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		color: lightgray;
+		text-decoration: none;
+	}
+	section, aside{
+		top: 100px;
+	}
+	section{
+		position: absolute;
+		left: 12vw;
+		width: 1150px;
+		margin-top: 80px;
+	}
+	aside{
+		position: absolute;
+		left: 75.5vw;
+	}
+	button{
+		cursor: pointer;
+	}
+	button, input{
+		border: solid 1px dimgray;
+		height: 25px;
+	}
+
+	#filtroSuperior{
+		position: absolute;
+		top: -30px;
+		width: 104vw;
+		background: none;
+		margin-left: 3px;
+	}
+	#filtroSuperior #menu{
+		width: 210px;
+	}
+	#filtroSuperior #menuFS{
+		float: left;
+		background: none;
+	}
+	#filtroSuperior #menuFS2{
+		text-align: left;
+		float: right;
+	}
+	#filtroSuperior .conjuntoElementosFS{
+		margin-top: 5px;
+	}
+	#filtroSuperior .conjuntoElementosFS a:hover{
+		color: white;
+	}
+	#filtroSuperior .elementoFS a{
+		display: block;
+		width: 70px;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13px;
+		background: rgb(30, 30, 30);
+	}
+	#filtroSuperior .elementoFS a:last-child{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	#filtroSuperior .elementoFS a:hover{
+		color: white;
+	}
+	
+	#filtroSuperior button{
+		width: 100px;
+	} 
+	#barraLateralDerecha #barraBusqueda{
+		width: 250px;
+		margin-bottom: 50px;
+	}
+	#barraLateralDerecha #barraBusqueda #buscar{
+		width: 75px;
+	}
+
+	#barraLateralDerecha #barraBusqueda #buscar:hover{
+		color: white;
+	}
+
+	#barraLateralDerecha #barraBusqueda #busqueda{
+		width: 150px;
+	}
+	
+	#barraLateralDerecha .filtroLateral button{
+		padding: 0px;
+		margin: 0px;
+		border: none;
+		text-align: left;
+	}
+	
+	#barraLateralDerecha .filtroLateral a{
+		display: block;
+		margin-bottom: 13px;
+		width: max-content;
+	}
+
+	#barraLateralDerecha .filtroLateral .menuFL button{
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	#barraLateralDerecha .filtroLateral .menuFL button:hover{
+		color: lightgray;
+	}
+	#barraLateralDerecha .filtroLateral .menuFL button,#barraLateralDerecha .filtroLateral a{
+		color: gray;
+	}
+	#barraLateralDerecha .filtroLateral a:hover{
+		color: lightgray;
+	}
+	
+	section #tablaProductos a:hover{
+		color: white;
+	}
+	
+	section #tablaProductos td{
+		margin-right: 10px;
+	}
+	section #tablaProductos img{
+		display: block;
+		height: 300px;
+		width: 225px;
+		margin-bottom: 15px;
+		border-radius: 4px;
+	}	
+	 section #tablaProductos img:hover{
+		filter: contrast(85%);
+	}
+	section #tablaProductos span{
+		display: block;
+		width: 225px;
+		margin: 5px;
+		overflow: hidden;
+		white-space: nowrap;
+  		text-overflow: ellipsis;
+	}
+	section #tablaProductos span:last-child{
+		margin-bottom: 15px;
+	}
+	section #tablaProductos .productoDeved{
+		color: gray;
+	}
+	#paginas{
+		text-align: center;
+	}
+	#paginas .pag:hover{
+		color: white;
+	}
+</style>

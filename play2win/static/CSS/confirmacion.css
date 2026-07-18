@@ -1,0 +1,32 @@
+<style>
+body{
+    background: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+#conf{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+input{
+    margin:15px;
+}
+#confirmar{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.btn{
+    color:white;
+    background-color: black;
+}
+.btn:hover{
+    background-color: darkturquoise;
+}
+a{
+    color:white;
+}
+a:hover{
+color: deepskyblue;
+}
+</style>

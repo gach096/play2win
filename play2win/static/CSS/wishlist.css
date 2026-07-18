@@ -1,0 +1,35 @@
+<style>
+body{
+    background: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.card{
+    display: block;
+    height: 300px;
+    width: 225px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}	
+.card:hover{
+    filter: contrast(85%);
+}
+.quitar{
+    color:red;
+    margin-top: 170px;
+    margin-left: 700px;
+    position:absolute;
+}
+#nombre, #precio{
+    position:absolute;
+}
+#nombre{
+    margin-top: -180px;
+    margin-left: 400px;
+}
+#precio{
+    margin-top: -150px;
+    margin-left: 500px;
+}
+</style>

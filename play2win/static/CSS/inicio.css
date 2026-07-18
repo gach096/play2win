@@ -1,0 +1,40 @@
+<style>
+.card{
+    display: block;
+    height: 300px;
+    width: 225px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.cardGen{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.card:hover{
+    filter: contrast(85%);
+}
+.datoGeneros{
+    width: 210px;
+}
+.datoCategoria{
+    width: 235px;
+}
+.datoCategoria p{
+    max-width: 225px;
+    margin: 0;
+    margin-bottom: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#divInicio{
+    margin-left: 25vh;
+    margin-top: 100px;
+}
+.nombreCategoria{
+    margin-top: 50px;
+}
+
+</style>
