@@ -25,3 +25,10 @@ Es una aplicación **full-stack** con frontend atractivo y backend funcional.
 - **Backend**: PHP
 - **Base de datos**: MySQL / SQL
 - **Otros**: Diseño responsive
+
+## Servicios utilizados
+
+- **XAMPP**: Testeo de funcionamiento y programación de base de datos.
+- **Sublimetext**: Programación general de la página.
+- **InfinityFree**: Servicio de host gratuito.
+- **FileZilla**: Gestión de archivos del servidor.
