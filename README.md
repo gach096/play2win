@@ -26,6 +26,8 @@ Es una aplicación **full-stack** con frontend atractivo y backend funcional.
 - **Base de datos**: MySQL / SQL
 - **Otros**: Diseño responsive
 
+  ---
+
 ## Servicios utilizados
 
 - **XAMPP**: Testeo de funcionamiento y programación de base de datos.
