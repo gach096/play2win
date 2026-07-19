@@ -34,3 +34,9 @@ Es una aplicación **full-stack** con frontend atractivo y backend funcional.
 - **Sublimetext**: Programación general de la página.
 - **InfinityFree**: Servicio de host gratuito.
 - **FileZilla**: Gestión de archivos del servidor.
+
+---
+
+## Como veo la página en funcionamiento?
+
+- **Puedes acceder a la pagina haciendo click [aquí](https://play2win.infinityfree.io/inicio)**
