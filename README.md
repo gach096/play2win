@@ -1,6 +1,6 @@
 # Play2Win - Plataforma estilo Steam
 
-Proyecto académico desarrollado para la asignatura Laboratorio IV de la **Tecnicatura Universitaria en Programación** (Plan 2003) - UTN Facultad Regional Haedo.
+Proyecto académico desarrollado para la asignatura Laboratorio IV de la **Tecnicatura Universitaria en Programación** (Plan 2003) - UTN Facultad Regional Haedo. (Nota: 10)
 
 Realizado en colaboración con **Federico Ariel Gomez**.
 
