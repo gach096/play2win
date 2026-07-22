@@ -15,7 +15,7 @@ Play2Win es una plataforma web tipo Steam que permite:
 - Panel de administración básico
 - Gestión de productos/juegos
 
-Es una aplicación **full-stack** con frontend atractivo y backend funcional.
+Es una aplicación full-stack con frontend atractivo y backend funcional.
 
 ---
 
@@ -24,6 +24,7 @@ Es una aplicación **full-stack** con frontend atractivo y backend funcional.
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: PHP
 - **Base de datos**: MySQL / SQL
+- **Diseño adaptativo**
 
 ---
 
@@ -38,4 +39,4 @@ Es una aplicación **full-stack** con frontend atractivo y backend funcional.
 
 ## Cómo veo la página en funcionamiento?
 
-- **Puedes acceder a la página haciendo clic [aquí](https://play2win.infinityfree.io/inicio).**
+- **Puedes acceder a la página haciendo clic [aquí](https://play2win.infinityfree.io).**
