@@ -39,4 +39,4 @@ Es una aplicación full-stack con frontend atractivo y backend funcional.
 
 ## Cómo veo la página en funcionamiento?
 
-- **Puedes acceder a la página haciendo clic **[aquí](https://play2win.infinityfree.io)**.**
+- **Puedes acceder a la página haciendo clic [aquí](https://play2win.infinityfree.io).**
