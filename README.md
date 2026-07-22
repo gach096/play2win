@@ -1,14 +1,14 @@
 # Play2Win - Plataforma estilo Steam
 
-Proyecto académico desarrollado para la asignatura Laboratorio IV de la **Tecnicatura Universitaria en Programación** (Plan 2003) - UTN Facultad Regional Haedo (Nota: 10).
+Proyecto académico desarrollado para la asignatura Laboratorio IV de la Tecnicatura Universitaria en Programación (TUP Plan 2003) - UTN Facultad Regional Haedo (Nota: 10).
 
-Realizado en colaboración con **Federico Ariel Gomez**.
+Realizado en colaboración con Federico Ariel Gomez.
 
 ---
 
 ## Descripción del Proyecto
 
-Play2Win es una **plataforma web tipo Steam** que permite:
+Play2Win es una plataforma web tipo Steam que permite:
 - Navegar un catálogo de juegos
 - Sistema de usuarios (registro e inicio de sesión)
 - Carrito de compras
