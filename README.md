@@ -15,7 +15,7 @@ Play2Win es una plataforma web tipo Steam que permite:
 - Panel de administración básico
 - Gestión de productos/juegos
 
-Es una aplicación full-stack con frontend atractivo y backend funcional.
+Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 ---
 
