@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 19-07-2026 a las 16:36:45
--- Versión del servidor: 10.4.32-MariaDB
--- Versión de PHP: 8.2.12
+-- Servidor: sql104.infinityfree.com
+-- Tiempo de generación: 28-07-2026 a las 12:57:51
+-- Versión del servidor: 11.4.12-MariaDB
+-- Versión de PHP: 7.2.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `play2win`
+-- Base de datos: `if0_42442061_play2win`
 --
 
 -- --------------------------------------------------------
@@ -71,7 +72,7 @@ CREATE TABLE `carrito_juego` (
 --
 
 INSERT INTO `carrito_juego` (`id_usuario`, `id_juego`) VALUES
-(15, 10);
+(17, 9);
 
 -- --------------------------------------------------------
 
@@ -109,8 +110,14 @@ CREATE TABLE `compras_juego` (
 
 INSERT INTO `compras_juego` (`id_juego`, `id_usuario`) VALUES
 (1, 15),
+(6, 15),
 (7, 15),
-(9, 15);
+(9, 15),
+(10, 15),
+(1, 16),
+(10, 17),
+(1, 18),
+(5, 19);
 
 -- --------------------------------------------------------
 
@@ -242,14 +249,14 @@ CREATE TABLE `editores_juego` (
 --
 
 INSERT INTO `editores_juego` (`id_editor`, `id_juego`) VALUES
-(1, 9),
-(2, 8),
-(2, 11),
-(3, 7),
-(4, 6),
-(5, 5),
 (6, 1),
-(7, 10);
+(5, 5),
+(4, 6),
+(3, 7),
+(2, 8),
+(1, 9),
+(7, 10),
+(2, 11);
 
 -- --------------------------------------------------------
 
@@ -272,9 +279,9 @@ CREATE TABLE `expansiones` (
 --
 
 INSERT INTO `expansiones` (`id_expansion`, `id_juego`, `nombre`, `descripcion`, `fecha_publicacion`, `fecha_lanzamiento`, `precio`) VALUES
-(4, 1, 'Assassin’s CreedⓇ Odyssey – Legacy of the First Blade', 'Lucha junto a la leyenda que empuñó la hoja oculta por primera vez para cambiar el curso de la historia mientras descubres por qué los Assassins eligieron luchar desde las sombras.', '2021-06-01', '2018-12-04', 1249.00),
-(5, 1, 'Assassin’s CreedⓇ Odyssey - The Fate of Atlantis', 'En El destino de la Atlántida, el segundo contenido descargable, adéntrate en los fabulosos reinos de la mitología griega para descubrir tu verdadero poder y desvelar los misterios de la Primera Civilización.', '2021-06-11', '2019-01-23', 1249.00),
-(6, 1, 'Assassin\'s Creed® Odyssey - Season Pass', 'Enriquece tu experiencia de juego en Assassin\'s Creed® Odyssey con el SEASON PASS.', '2020-06-24', '2018-08-05', 1999.00);
+(4, 1, 'Assassin’s CreedⓇ Odyssey – Legacy of the First Blade', 'Lucha junto a la leyenda que empuñó la hoja oculta por primera vez para cambiar el curso de la historia mientras descubres por qué los Assassins eligieron luchar desde las sombras.', '2021-06-01', '2018-12-04', '1249.00'),
+(5, 1, 'Assassin’s CreedⓇ Odyssey - The Fate of Atlantis', 'En El destino de la Atlántida, el segundo contenido descargable, adéntrate en los fabulosos reinos de la mitología griega para descubrir tu verdadero poder y desvelar los misterios de la Primera Civilización.', '2021-06-11', '2019-01-23', '1249.00'),
+(6, 1, 'Assassin\'s Creed® Odyssey - Season Pass', 'Enriquece tu experiencia de juego en Assassin\'s Creed® Odyssey con el SEASON PASS.', '2020-06-24', '2018-08-05', '1999.00');
 
 -- --------------------------------------------------------
 
@@ -338,14 +345,14 @@ CREATE TABLE `generos_expansion` (
 
 INSERT INTO `generos_expansion` (`id_expansion`, `id_genero`) VALUES
 (4, 1),
-(4, 3),
-(4, 7),
 (5, 1),
-(5, 2),
-(5, 3),
 (6, 1),
+(5, 2),
 (6, 2),
-(6, 6);
+(4, 3),
+(5, 3),
+(6, 6),
+(4, 7);
 
 -- --------------------------------------------------------
 
@@ -364,28 +371,28 @@ CREATE TABLE `generos_juego` (
 
 INSERT INTO `generos_juego` (`id_juego`, `id_genero`) VALUES
 (1, 1),
-(1, 2),
-(1, 3),
-(1, 6),
-(1, 7),
 (5, 1),
-(5, 8),
-(6, 3),
-(6, 4),
-(6, 9),
 (7, 1),
 (8, 1),
-(8, 2),
-(8, 3),
-(9, 2),
-(9, 3),
-(9, 5),
-(9, 6),
-(9, 10),
 (10, 1),
-(10, 8),
 (11, 1),
-(11, 2);
+(1, 2),
+(8, 2),
+(9, 2),
+(11, 2),
+(1, 3),
+(6, 3),
+(8, 3),
+(9, 3),
+(6, 4),
+(9, 5),
+(1, 6),
+(9, 6),
+(1, 7),
+(5, 8),
+(10, 8),
+(6, 9),
+(9, 10);
 
 -- --------------------------------------------------------
 
@@ -408,14 +415,14 @@ CREATE TABLE `juegos` (
 --
 
 INSERT INTO `juegos` (`id_juego`, `nombre`, `descripcion`, `fecha_publicacion`, `fecha_lanzamiento`, `precio`, `ingame_players`) VALUES
-(1, 'Assassin\'s Creed® Odyssey', 'Elige tu destino en Assassin\'s Creed® Odyssey. Pasa de la marginación a la gloria embarcándote en una odisea para descubrir los secretos de tu pasado y cambiar el destino de la antigua Grecia.', '2018-05-05', '2018-08-05', 2999.00, 0),
-(5, 'DOOM Eternal', 'Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cruza dimensiones para detener la destrucción definitiva de la humanidad. No le tienen miedo a nada... salvo a ti.', '2019-09-27', '2020-03-20', 599.00, 0),
-(6, 'Subnautica: Below Zero', 'Sumérgete en una gélida aventura subacuática en un planeta alienígena. Below Zero está ambientado dos años después de los hechos del juego original de Subnautica. Sobrevive a las arduas condiciones construyendo hábitats, fabricando herramientas.', '2019-02-28', '2020-05-14', 329.00, 0),
-(7, 'Mortal Kombat 11', 'Mortal Kombat ha regresado mejor que nunca en esta entrega de la icónica saga.', '2019-01-01', '2019-03-23', 1199.00, 0),
-(8, 'Grand Theft Auto V: Edición Premium', 'Un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se meten en un lío, y tendrán que llevar a cabo una serie de peligrosos golpes para sobrevivir en una ciudad en la que no pueden confiar en nadie, y mucho menos los unos en los otros.', '2012-07-05', '2013-09-17', 315.00, 0),
-(9, 'FINAL FANTASY XV WINDOWS EDITION', 'Noctis Lucis Caelum, el último de un antiguo linaje real y el heredero al trono, proviene del reino de Lucis. Este es un país que ostenta el último cristal en el mundo, lo cual es beneficioso para la política, la economía y los aspectos militares del reino.', '2016-02-10', '2016-11-29', 800.00, 0),
-(10, 'Warframe', 'Despierta como un guerrero imparable y lucha junto a tus amigos en este juego de acción gratuito en línea y basado en historias.', '2010-03-25', '2013-03-25', 0.00, 0),
-(11, 'Grand Theft Auto: San Andreas', 'Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart with gang trouble, drugs and corruption.', '2005-06-06', '2005-06-06', 400.00, 0);
+(1, 'Assassin\'s Creed® Odyssey', 'Elige tu destino en Assassin\'s Creed® Odyssey. Pasa de la marginación a la gloria embarcándote en una odisea para descubrir los secretos de tu pasado y cambiar el destino de la antigua Grecia.', '2018-05-05', '2018-08-05', '2999.00', 0),
+(5, 'DOOM Eternal', 'Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cruza dimensiones para detener la destrucción definitiva de la humanidad. No le tienen miedo a nada... salvo a ti.', '2019-09-27', '2020-03-20', '599.00', 0),
+(6, 'Subnautica: Below Zero', 'Sumérgete en una gélida aventura subacuática en un planeta alienígena. Below Zero está ambientado dos años después de los hechos del juego original de Subnautica. Sobrevive a las arduas condiciones construyendo hábitats, fabricando herramientas.', '2019-02-28', '2020-05-14', '329.00', 0),
+(7, 'Mortal Kombat 11', 'Mortal Kombat ha regresado mejor que nunca en esta entrega de la icónica saga.', '2019-01-01', '2019-03-23', '1199.00', 0),
+(8, 'Grand Theft Auto V: Edición Premium', 'Un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se meten en un lío, y tendrán que llevar a cabo una serie de peligrosos golpes para sobrevivir en una ciudad en la que no pueden confiar en nadie, y mucho menos los unos en los otros.', '2012-07-05', '2013-09-17', '315.00', 0),
+(9, 'FINAL FANTASY XV WINDOWS EDITION', 'Noctis Lucis Caelum, el último de un antiguo linaje real y el heredero al trono, proviene del reino de Lucis. Este es un país que ostenta el último cristal en el mundo, lo cual es beneficioso para la política, la economía y los aspectos militares del reino.', '2016-02-10', '2016-11-29', '800.00', 0),
+(10, 'Warframe', 'Despierta como un guerrero imparable y lucha junto a tus amigos en este juego de acción gratuito en línea y basado en historias.', '2010-03-25', '2013-03-25', '0.00', 0),
+(11, 'Grand Theft Auto: San Andreas', 'Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas... a city tearing itself apart with gang trouble, drugs and corruption.', '2005-06-06', '2005-06-06', '400.00', 0);
 
 -- --------------------------------------------------------
 
@@ -434,7 +441,7 @@ CREATE TABLE `juegos_wishlist` (
 
 INSERT INTO `juegos_wishlist` (`id_juego`, `id_usuario`) VALUES
 (1, 15),
-(10, 15);
+(9, 17);
 
 -- --------------------------------------------------------
 
@@ -456,7 +463,11 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `email`, `contrasenia`, `tipo_usuario`) VALUES
 (6, 'pedro40', 'pedro40@gmail.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', ''),
-(15, 'pedrito', 'ch.gabriel.096@gmail.com', '64fe53e0fb164f09c56cffbd0ff6d46cf3bf361e', 'User');
+(15, 'pedrito', 'ch.gabriel.096@gmail.com', '721a0debd387f235265b38fdef92d5bd8599097d', 'User'),
+(16, 'Gdhsjs', 'romero@jujuy.com', '8cb2237d0679ca88db6464eac60da96345513964', 'User'),
+(17, 'dfghdfgh dfgh', 'ch.gabr@gmail.com', '40c5169448af7279279c2b4041455ee4b0ab5cd1', 'User'),
+(18, 'fghdfgh', 'ch.gabri@gmail.com', 'b47d926911d4e6b8201f801a151f5b82d513cf09', 'User'),
+(19, 'Noemi', 'noemimirtasimonetti@gmail.com', 'dea742e166979027ae70b28e0a9006fb1010e760', 'User');
 
 --
 -- Índices para tablas volcadas
@@ -621,7 +632,7 @@ ALTER TABLE `juegos`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_usuario` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- Restricciones para tablas volcadas
