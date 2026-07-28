@@ -48,6 +48,8 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 - **[diagrams.net](https://app.diagrams.net/)**: Servicio para diseño de diagramas.
 
+- **Microsoft Word Online**: Utilizado para editar texto e imagen y como conversor a PDF.
+
 ---
 
 ## ¿Cómo ver la página en funcionamiento?
