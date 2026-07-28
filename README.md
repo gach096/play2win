@@ -9,11 +9,16 @@ Realizado en colaboración con Federico Ariel Gomez.
 ## Descripción del Proyecto
 
 Play2Win es una plataforma web tipo Steam que permite:
-- Navegar un catálogo de juegos
-- Sistema de usuarios (registro e inicio de sesión)
-- Carrito de compras
+
+- Navegar el catálogo de juegos con barra de búsqueda o mediante la adición o remoción de uno o múltiples géneros.
+
+- Sistema de usuarios (registro, inicio de sesión, cambio de contraseña, cerrar sesión)
+
+- Wishlist y carrito de compras (Sistema de compra no implementado, solo simulado)
+
 - Panel de administración básico
-- Gestión de juegos
+
+- Formato de URLs fácil de entender.
 
 Es una aplicación full-stack con frontend sobrio y backend funcional.
 
@@ -21,22 +26,28 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 ## Tecnologías utilizadas
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: PHP
-- **Base de datos**: MySQL / SQL
-- **Diseño adaptativo básico**
+- Frontend: HTML5, CSS3, JavaScript
+
+- Backend: PHP
+
+- Base de datos: MySQL / SQL
+
+- Diseño adaptativo básico
 
 ---
 
 ## Servicios utilizados
 
-- **XAMPP**: Programación de base de datos y testeo de funcionamiento.
-- **Sublime Text**: Programación general de la página.
-- **InfinityFree**: Servicio de host gratuito.
-- **FileZilla**: Gestión de archivos del servidor.
+- XAMPP: Programación de base de datos y testeo de funcionamiento.
+
+- Sublime Text: Programación general de la página.
+
+- InfinityFree: Servicio de host gratuito.
+
+- FileZilla: Gestión de archivos del servidor.
 
 ---
 
 ## ¿Cómo ver la página en funcionamiento?
 
-- **Puedes acceder a la página haciendo clic [aquí](https://play2win.infinityfree.io).**
+- Puedes acceder a la página haciendo clic [aquí](https://play2win.infinityfree.io).
