@@ -31,7 +31,7 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 ## Servicios utilizados
 
 - **XAMPP**: Programación de base de datos y testeo de funcionamiento.
-- **Sublimetext**: Programación general de la página.
+- **Sublime Text**: Programación general de la página.
 - **InfinityFree**: Servicio de host gratuito.
 - **FileZilla**: Gestión de archivos del servidor.
 
