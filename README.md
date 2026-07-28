@@ -24,7 +24,7 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: PHP
 - **Base de datos**: MySQL / SQL
-- **Diseño adaptativo**
+- **Diseño adaptativo básico**
 
 ---
 
