@@ -42,7 +42,7 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 - **Sublime Text**: Programación general de la página.
 
-- **InfinityFree**: Servicio de host gratuito.
+- **[InfinityFree](https://www.infinityfree.com/)**: Servicio de host gratuito.
 
 - **FileZilla**: Gestión de archivos del servidor.
 
