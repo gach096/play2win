@@ -38,13 +38,15 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 ## Servicios utilizados
 
-- XAMPP: Programación de base de datos y testeo de funcionamiento.
+- **XAMPP**: Programación de base de datos y testeo de funcionamiento.
 
-- Sublime Text: Programación general de la página.
+- **Sublime Text**: Programación general de la página.
 
-- InfinityFree: Servicio de host gratuito.
+- **InfinityFree**: Servicio de host gratuito.
 
-- FileZilla: Gestión de archivos del servidor.
+- **FileZilla**: Gestión de archivos del servidor.
+
+- **[diagrams.net](https://app.diagrams.net/)**: 
 
 ---
 
