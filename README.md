@@ -46,7 +46,7 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 - **FileZilla**: Gestión de archivos del servidor.
 
-- **[diagrams.net](https://app.diagrams.net/)**: 
+- **[diagrams.net](https://app.diagrams.net/)**: Servicio para diseño de diagramas.
 
 ---
 
