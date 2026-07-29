@@ -32,6 +32,8 @@ Es una aplicación full-stack con frontend sobrio y backend funcional.
 
 - Base de datos: MySQL / SQL
 
+- Prevención de inyecciones y tratamiento de excepciones.
+
 - Diseño adaptativo básico
 
 ---
