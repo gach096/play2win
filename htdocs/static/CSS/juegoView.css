@@ -1,0 +1,53 @@
+<style>
+body{
+    background: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+#imagen{
+    float: left;
+    margin: 20px;
+    height:200px;
+}
+#expan, #actu{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.btn{
+    color:white;
+    background-color: black;
+    border: 1px solid dimgray;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darkturquoise;
+}
+a:hover{
+color: deepskyblue;
+}
+#portada{
+    height: 300px;
+    width: 225px;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 700px){
+    #imagen{
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+    #portada{
+        margin: 0 auto 20px auto;
+    }
+}
+</style>
