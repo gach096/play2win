@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule ^catalogo$ controllers/catalogo.php
+RewriteRule ^test$ controllers/test.php
+RewriteRule ^juego$ controllers/juego.php
+RewriteRule ^cuenta$ controllers/cuenta.php
+RewriteRule ^login$ controllers/login.php
+RewriteRule ^logout$ controllers/logout.php
+RewriteRule ^registro$ controllers/registro.php
+RewriteRule ^perfil$ controllers/perfil.php
+RewriteRule ^biblioteca$ controllers/biblioteca.php
+RewriteRule ^wishlist$ controllers/wishlist.php
+RewriteRule ^expansion$ controllers/expansion.php
+RewriteRule ^comprarJuego$ controllers/comprarJuego.php
+RewriteRule ^comprarExpansion$ controllers/comprarExpansion.php
+RewriteRule ^updatePass$ controllers/updatePass.php
+RewriteRule ^eliminar$ controllers/eliminar.php
+RewriteRule ^inicio$ controllers/inicio.php
+RewriteRule ^carrito$ controllers/carrito.php
+RewriteRule ^compra$ controllers/compra.php
+RewriteRule ^confirmacion$ controllers/confirmacion.php
+RewriteRule ^$ controllers/inicio.php
