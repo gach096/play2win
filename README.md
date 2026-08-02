@@ -2,7 +2,7 @@
 
 Proyecto desarrollado para la asignatura Laboratorio IV de la Tecnicatura Universitaria en Programación (TUP Plan 2003) - UTN Facultad Regional Haedo (Nota: 10).
 
-Realizado en colaboración con Federico Ariel Gomez.
+Realizado en conjunto con Federico Ariel Gomez.
 
 ---
 
